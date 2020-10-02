@@ -19,8 +19,38 @@
     <canvas id="content"></canvas>
     <div id="left-content">
       <div id="brandname">Unix to Human Readable Time</div>
+      <form id="timeForm" onsubmit="covertUnix2HumanTime()">
+        <div id="main-form">
+            <fieldset class="newfieldset">
+              <legend class="legend-border">Unix Time</legend>
+              <input name="unixTime" id="unixTime" type="number" placeholder="in seconds">
+            </fieldset>
+        </div>
+        <div id="submit-container">
+            <button id="submit-btn" type="submit">Convert</button>
+        </div>
+      </form>
+      <div id="timeResults" class="results">
+          <div>
+            <div class="results-heading">
+                <span class="results-heading-title">GMT</span>
+            </div>
+            <div class="results-value">
+                <span id="GMTTime">2nd October 2020, Friday, 6:46:01 AM</span>
+            </div>
+          </div>
+          <div>
+            <div class="results-heading">
+                <span class="results-heading-title">Your Time Zone</span>
+            </div>
+            <div class="results-value">
+                <span id="LOCALTime">2nd October 2020, Friday, 12:16:01 PM</span>
+            </div>
+          </div>
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
     <script src="assets/js/canvas.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

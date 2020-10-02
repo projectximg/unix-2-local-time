@@ -45,7 +45,6 @@ function resizeCanvas() {
 function redraw()
 {
     size = d3.min([width/2, height/2]);
-    console.log("redrawheight",height);
     d3.select('#content')
         .attr('width', width + 'px')
         .attr('height', height + 'px');
