@@ -1,2 +1,2 @@
 # unix-2-local-time
-Hi my name id vhf
+This project changes the unix time to human readable time
