@@ -26,6 +26,21 @@ The <strong>Unix epoch</strong> (or <strong>Unix Time</strong> or <strong>POSIX 
 var myDate = new Date( your epoch date *1000);
 document.write(myDate.toGMTString()+"<br>"+myDate.toLocaleString());
 ```
+### Calculation Table
+* 1 min = 60s
+* 1 hour = 3600s
+* 1 day = 86400s
+* 1 month = 2629743s
+* 1 year = 31556926s
+
+### Manual Calculation
+1. Let the unix epoch be 1601623067.
+2. 1601623067 / 31556926 = 50.753456372778516 -> 50 years -> 1970+50 = 2020
+3. 1601623067 % 31556926 = 23776767 / 2629743 = 10 months
+3. 109080 / 86400 = 2 days
+4. 1601623067 % 86400 = 7.296388888888889 -> 7 hours
+
+....
 
 ## Featured Links
 * [Epoch Converter](https://www.epochconverter.com)
