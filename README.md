@@ -39,7 +39,7 @@ document.write(myDate.toGMTString()+"<br>"+myDate.toLocaleString());
 3. 1601623067 % 31556926 = 23776767 / 2629743 = 10 months
 3. 109080 / 86400 = 2 days
 4. 1601623067 % 86400 = 7.296388888888889 -> 7 hours
-5. 
+....
 
 ## Featured Links
 * [Epoch Converter](https://www.epochconverter.com)
