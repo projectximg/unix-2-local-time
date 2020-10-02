@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+body {
+  background: linear-gradient(-90deg, #141e30, #41295a);
+  background-color: #00171f;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+#content {
+  position: absolute;
+  z-index: -1;
+}
+#left-content {
+  color: #fafafa;
+  margin-top: 10vh;
+  margin-left: 4vw;
+}
+
+#brandname {
+  font-size: 2.5rem;
+}
