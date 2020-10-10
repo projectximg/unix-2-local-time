@@ -20,6 +20,10 @@ Example :
 ### What is Unix Epoch Time ?
 The <strong>Unix epoch</strong> (or <strong>Unix Time</strong> or <strong>POSIX time</strong> or <strong>Unix timestamp</strong>) is the number of seconds that have elapsed since January 1, 1970(midnight UTC/GMT), not counting leap seconds(an additional second is added to the TAI when the velocity of Earth's rotation around it's axis does not match the speed of atomic time). Literally speaking the epoch is Unix time 0 (midnight 1/1/1970), but 'epoch' is often used as a synonym for Unix time. 
 
+### Screenshots
+![](https://raw.githubusercontent.com/datablogger-ml/unix-2-local-time/main/Screenshot%202020-10-10%20at%2010.04.07%20AM.png)
+![](https://raw.githubusercontent.com/datablogger-ml/unix-2-local-time/main/Screenshot%202020-10-10%20at%2010.04.59%20AM.png)
+
 ### JavaScript Algorithm
 
 ```
